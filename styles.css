@@ -713,6 +713,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
+  align-items: stretch;
 }
 
 .featured-card:hover {
@@ -736,6 +737,24 @@ p {
 
 .featured-card:hover .featured-card-image img {
   transform: scale(1.05);
+}
+
+.featured-card-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 100%;
+  background: var(--obsidian);
+  overflow: hidden;
+}
+
+.featured-card-media iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .featured-card-body {
@@ -863,6 +882,8 @@ p {
   overflow: hidden;
   border: 1px solid var(--border);
   transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
 }
 
 .video-card:hover {
@@ -890,6 +911,9 @@ p {
 
 .video-card-body {
   padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .video-card-body h3 {
@@ -907,7 +931,8 @@ p {
   align-items: center;
   gap: var(--space-xs);
   font-size: 0.8rem;
-  margin-top: var(--space-sm);
+  margin-top: auto;
+  padding-top: var(--space-sm);
   color: var(--racing-red);
 }
 
@@ -1720,6 +1745,85 @@ p {
   color: var(--muted-grey);
 }
 
+.footer-credit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xl);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border);
+  text-align: left;
+}
+
+.footer-credit-text {
+  max-width: 640px;
+}
+
+.footer-credit-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--off-white);
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.01em;
+}
+
+.footer-credit-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-credit-title a:hover {
+  color: var(--racing-red);
+}
+
+.footer-credit-text p:not(.footer-credit-title) {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--muted-grey);
+  margin: 0;
+}
+
+.footer-credit-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-shrink: 0;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--off-white);
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: all var(--transition-fast);
+}
+
+.footer-credit-badge:hover {
+  border-color: var(--racing-red);
+  color: var(--racing-red);
+  background: var(--surface);
+  transform: translateY(-2px);
+}
+
+.footer-credit-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
 /* ---------- Back to Top ---------- */
 .back-to-top {
   position: fixed;
@@ -2066,6 +2170,15 @@ p {
     text-align: center;
   }
 
+  .footer-credit {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-credit-badge {
+    align-self: flex-start;
+  }
+
   .hero-cta-group {
     flex-direction: column;
     align-items: center;
@@ -2089,6 +2202,11 @@ p {
 
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-credit-badge {
+    width: 100%;
+    justify-content: center;
   }
 
   .fan-wall {
@@ -2162,7 +2280,7 @@ p {
   margin-top: var(--space-lg);
 }
 
-.video-card {
+.video-grid .video-card {
   position: relative;
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -2172,12 +2290,12 @@ p {
   transition: all var(--transition-normal);
 }
 
-.video-card:hover {
+.video-grid .video-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
 }
 
-.video-card iframe {
+.video-grid .video-card iframe {
   width: 100%;
   height: 100%;
   display: block;
@@ -2193,7 +2311,7 @@ p {
   transition: all var(--transition-fast);
 }
 
-.video-card:hover .video-play-overlay {
+.video-grid .video-card:hover .video-play-overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -2212,11 +2330,11 @@ p {
   filter: drop-shadow(0 4px 12px rgba(240, 68, 68, 0.4));
 }
 
-.video-card:hover .video-play-btn {
+.video-grid .video-card:hover .video-play-btn {
   transform: scale(1.1);
 }
 
-.video-card h3 {
+.video-grid .video-card h3 {
   position: absolute;
   bottom: 0;
   left: 0;
