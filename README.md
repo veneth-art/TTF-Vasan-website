@@ -66,10 +66,4 @@ Deploy directly to Cloudflare Pages, GitHub Pages, Vercel, or Netlify by pointin
 │       ├── gallery/
 │       ├── news/
 │       └── og/
-└── docs/
-    ├── 01-brief/             # PROJECT_BRIEF, MASTER_PROMPT, AI_BUILD_STEPS
-    ├── 02-design/            # DESIGN_SYSTEM, IMAGE_ASSET_MANIFEST
-    ├── 03-content/           # CONTENT_MODEL, CONTENT_WORKFLOW, content-schema.json
-    ├── 04-specs/             # SITEMAP_AND_PAGE_SPECS, SEO_ACCESSIBILITY_PERFORMANCE, ACCEPTANCE_CHECKLIST
-    └── 05-security/          # security audit, changelog, Netlify verification checklist
 ```
