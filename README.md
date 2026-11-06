@@ -34,21 +34,6 @@ The fan hub is fully realized as a zero-dependency, static web experience optimi
 
 ---
 
-## 💻 Local Preview & Deployment
-
-Because this project is built using native HTML5, Vanilla CSS, and JavaScript, it can be tested instantly without complex build steps:
-
-### Using Python:
-```bash
-python -m http.server 8000
-```
-Then visit `http://localhost:8000`.
-
-### Using Node / npx:
-```bash
-npx serve .
-```
-
 ### Static Hosting:
 Deploy directly to Cloudflare Pages, GitHub Pages, Vercel, or Netlify by pointing the root directory to this repository.
 
