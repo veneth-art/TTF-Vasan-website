@@ -4,6 +4,26 @@
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
+  // ---------- Icon Initialization ----------
+  // Moved out of inline <script> blocks so the CSP can forbid inline scripts.
+  if (window.lucide) window.lucide.createIcons();
+
+  // ---------- URL Safety Helper ----------
+  // Allow http(s) always. Allow file: only when the page itself is opened
+  // as a local file, so direct local preview still works. Reject
+  // javascript:, data:, vbscript:, and every other scheme.
+  const toSafeUrl = (value) => {
+    if (!value) return '';
+    try {
+      const url = new URL(value, window.location.href);
+      const isWeb = url.protocol === 'https:' || url.protocol === 'http:';
+      const isLocalFile = url.protocol === 'file:' && window.location.protocol === 'file:';
+      return (isWeb || isLocalFile) ? url.href : '';
+    } catch {
+      return '';
+    }
+  };
+
   // ---------- Loading Screen ----------
   const loadingScreen = document.querySelector('.loading-screen');
   if (loadingScreen) {
@@ -378,9 +398,11 @@ if (typeof SITE_CONTENT !== 'undefined' && SITE_CONTENT.photoAlbums) {
     currentImageIndex = index;
     const imgData = currentAlbum.images[index];
 
+    const safeSrc = toSafeUrl(imgData.src);
+
     modalMainImg.style.opacity = '0';
     setTimeout(() => {
-      modalMainImg.src = imgData.src;
+      if (safeSrc) modalMainImg.src = safeSrc;
       modalMainImg.alt = imgData.title;
       modalMainImg.style.opacity = '1';
     }, 150);
@@ -390,18 +412,24 @@ if (typeof SITE_CONTENT !== 'undefined' && SITE_CONTENT.photoAlbums) {
     if (modalCounterPill) {
       modalCounterPill.textContent = (index + 1) + ' of ' + currentAlbum.images.length;
     }
-    if (modalCtaBtn && imgData.source) {
-      modalCtaBtn.href = imgData.source;
+    const safeSource = toSafeUrl(imgData.source);
+    if (modalCtaBtn && safeSource) {
+      modalCtaBtn.href = safeSource;
       modalCtaBtn.style.display = 'inline-flex';
     } else if (modalCtaBtn) {
       modalCtaBtn.style.display = 'none';
     }
 
-    // Render emoji overlay if present
-    if (modalEmojiWrap && imgData.emojis) {
-      modalEmojiWrap.innerHTML = imgData.emojis.map(e => '<span>' + e + '</span>').join('');
-    } else if (modalEmojiWrap) {
-      modalEmojiWrap.innerHTML = '';
+    // Render emoji overlay if present using safe DOM APIs (no innerHTML)
+    if (modalEmojiWrap) {
+      modalEmojiWrap.replaceChildren();
+      if (Array.isArray(imgData.emojis)) {
+        imgData.emojis.forEach(emoji => {
+          const span = document.createElement('span');
+          span.textContent = emoji;
+          modalEmojiWrap.appendChild(span);
+        });
+      }
     }
 
     // Update active thumb
@@ -425,12 +453,17 @@ if (typeof SITE_CONTENT !== 'undefined' && SITE_CONTENT.photoAlbums) {
       modalCategoryBadge.textContent = album.categoryName || 'Moments';
     }
 
-    // Populate thumbnail strip
-    modalThumbsStrip.innerHTML = '';
+    // Populate thumbnail strip using safe DOM APIs (no innerHTML)
+    modalThumbsStrip.replaceChildren();
     album.images.forEach((img, idx) => {
       const thumb = document.createElement('div');
       thumb.className = 'modal-thumb-item ' + (idx === 0 ? 'active' : '');
-      thumb.innerHTML = '<img src="' + img.src + '" alt="' + img.title + '" loading="lazy">';
+      const thumbImg = document.createElement('img');
+      const safeThumbSrc = toSafeUrl(img.src);
+      if (safeThumbSrc) thumbImg.src = safeThumbSrc;
+      thumbImg.alt = img.title;
+      thumbImg.loading = 'lazy';
+      thumb.appendChild(thumbImg);
       thumb.addEventListener('click', () => renderActiveImage(idx));
       modalThumbsStrip.appendChild(thumb);
     });
@@ -488,19 +521,6 @@ if (typeof SITE_CONTENT !== 'undefined' && SITE_CONTENT.photoAlbums) {
     if (e.key === 'Escape') closeModal();
     if (e.key === 'ArrowLeft' && modalPrev) modalPrev.click();
     if (e.key === 'ArrowRight' && modalNext) modalNext.click();
-  });
-}
-// ---------- Newsletter Form ----------
-const newsletterForm = document.getElementById('newsletter-form');
-const newsletterSuccess = document.getElementById('newsletter-success');
-if (newsletterForm && newsletterSuccess) {
-  newsletterForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const emailInput = document.getElementById('newsletter-email');
-    if (emailInput.value) {
-      newsletterForm.style.display = 'none';
-      newsletterSuccess.style.display = 'block';
-    }
   });
 }
 

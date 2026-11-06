@@ -14,8 +14,8 @@
 
 ## Logged Real Assets
 
-### Asset 001 — `assets/ttf-avatar.jpg`
-- **Asset location:** `assets/ttf-avatar.jpg`
+### Asset 001 — `assets/images/gallery/ttf-avatar.jpg`
+- **Asset location:** `assets/images/gallery/ttf-avatar.jpg`
 - **Source publisher/account:** Official YouTube Channel Avatar (`@TwinThrottlers_TTF`)
 - **Intended placement:** Navigation brand emblem, loading screen, and footer
 - **Identity evidence URL:** https://www.youtube.com/@TwinThrottlers_TTF
@@ -28,8 +28,8 @@
 
 ---
 
-### Asset 002 — `assets/ttf-vasan-portrait.jpg`
-- **Asset location:** `assets/ttf-vasan-portrait.jpg`
+### Asset 002 — `assets/images/gallery/ttf-vasan-portrait.jpg`
+- **Asset location:** `assets/images/gallery/ttf-vasan-portrait.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `bCAUNi5t_EQ`)
 - **Intended placement:** Biography, About, and Media spotlights
 - **Identity evidence URL:** https://www.youtube.com/watch?v=bCAUNi5t_EQ
@@ -42,8 +42,8 @@
 
 ---
 
-### Asset 003 — `assets/ttf-ladakh-ride.jpg`
-- **Asset location:** `assets/ttf-ladakh-ride.jpg`
+### Asset 003 — `assets/images/gallery/ttf-ladakh-ride.jpg`
+- **Asset location:** `assets/images/gallery/ttf-ladakh-ride.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `nNNS6gdgJ4k`)
 - **Intended placement:** Home featured story card, Videos gallery, and Ladakh Album cover
 - **Identity evidence URL:** https://www.youtube.com/watch?v=nNNS6gdgJ4k
@@ -56,8 +56,8 @@
 
 ---
 
-### Asset 004 — `assets/ttf-jarvis-r15.jpg`
-- **Asset location:** `assets/ttf-jarvis-r15.jpg`
+### Asset 004 — `assets/images/gallery/ttf-jarvis-r15.jpg`
+- **Asset location:** `assets/images/gallery/ttf-jarvis-r15.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `1lnKyVGwTAY`)
 - **Intended placement:** Superbikes Album cover & Garage feature
 - **Identity evidence URL:** https://www.youtube.com/watch?v=1lnKyVGwTAY
@@ -70,8 +70,8 @@
 
 ---
 
-### Asset 005 — `assets/ttf-nepal-ride.jpg`
-- **Asset location:** `assets/ttf-nepal-ride.jpg`
+### Asset 005 — `assets/images/gallery/ttf-nepal-ride.jpg`
+- **Asset location:** `assets/images/gallery/ttf-nepal-ride.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `3iKxoqA2JbU`)
 - **Intended placement:** Videos gallery & Touring Album
 - **Identity evidence URL:** https://www.youtube.com/watch?v=3iKxoqA2JbU
@@ -84,8 +84,8 @@
 
 ---
 
-### Asset 006 — `assets/ttf-wedding-reception.jpg`
-- **Asset location:** `assets/ttf-wedding-reception.jpg`
+### Asset 006 — `assets/images/news/ttf-wedding-reception.jpg`
+- **Asset location:** `assets/images/news/ttf-wedding-reception.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `_mCqvg8QNK0`)
 - **Intended placement:** Home Featured Video 2, Videos gallery, and Marriage Album cover
 - **Identity evidence URL:** https://www.youtube.com/watch?v=_mCqvg8QNK0
@@ -98,8 +98,8 @@
 
 ---
 
-### Asset 007 — `assets/ttf-anniversary.jpg`
-- **Asset location:** `assets/ttf-anniversary.jpg`
+### Asset 007 — `assets/images/news/ttf-anniversary.jpg`
+- **Asset location:** `assets/images/news/ttf-anniversary.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `G7XZU32AGQg`)
 - **Intended placement:** Marriage Album & News grid
 - **Identity evidence URL:** https://www.youtube.com/watch?v=G7XZU32AGQg
@@ -112,8 +112,8 @@
 
 ---
 
-### Asset 008 — `assets/ttf-biggboss-newlook.jpg`
-- **Asset location:** `assets/ttf-biggboss-newlook.jpg`
+### Asset 008 — `assets/images/news/ttf-biggboss-newlook.jpg`
+- **Asset location:** `assets/images/news/ttf-biggboss-newlook.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `bCAUNi5t_EQ`)
 - **Intended placement:** Bigg Boss Album cover & News dispatch
 - **Identity evidence URL:** https://www.youtube.com/watch?v=bCAUNi5t_EQ
@@ -126,8 +126,8 @@
 
 ---
 
-### Asset 009 — `assets/ttf-biggboss-audition.jpg`
-- **Asset location:** `assets/ttf-biggboss-audition.jpg`
+### Asset 009 — `assets/images/news/ttf-biggboss-audition.jpg`
+- **Asset location:** `assets/images/news/ttf-biggboss-audition.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `_aVOs0Y_lg4`)
 - **Intended placement:** Bigg Boss Album related photos
 - **Identity evidence URL:** https://www.youtube.com/watch?v=_aVOs0Y_lg4
@@ -140,8 +140,8 @@
 
 ---
 
-### Asset 010 — `assets/ttf-wedding-prep.jpg`
-- **Asset location:** `assets/ttf-wedding-prep.jpg`
+### Asset 010 — `assets/images/news/ttf-wedding-prep.jpg`
+- **Asset location:** `assets/images/news/ttf-wedding-prep.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `TkyRrtrNjko`)
 - **Intended placement:** Marriage Album related photos
 - **Identity evidence URL:** https://www.youtube.com/watch?v=TkyRrtrNjko
@@ -154,8 +154,8 @@
 
 ---
 
-### Asset 011 — `assets/ttf-wedding-anniv.jpg`
-- **Asset location:** `assets/ttf-wedding-anniv.jpg`
+### Asset 011 — `assets/images/news/ttf-wedding-anniv.jpg`
+- **Asset location:** `assets/images/news/ttf-wedding-anniv.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `H_wkFQ7jwwM`)
 - **Intended placement:** Marriage Album related photos
 - **Identity evidence URL:** https://www.youtube.com/watch?v=H_wkFQ7jwwM
@@ -168,8 +168,8 @@
 
 ---
 
-### Asset 012 — `assets/ttf-ladakh-bike-solo.jpg`
-- **Asset location:** `assets/ttf-ladakh-bike-solo.jpg`
+### Asset 012 — `assets/images/gallery/ttf-ladakh-bike-solo.jpg`
+- **Asset location:** `assets/images/gallery/ttf-ladakh-bike-solo.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `wieMmcAWzXI`)
 - **Intended placement:** Biography page "The Creator" section (solo on touring bike) & Ladakh Album
 - **Identity evidence URL:** https://www.youtube.com/watch?v=wieMmcAWzXI
@@ -182,8 +182,8 @@
 
 ---
 
-### Asset 013 — `assets/ttf-ladakh-ep2.jpg`
-- **Asset location:** `assets/ttf-ladakh-ep2.jpg`
+### Asset 013 — `assets/images/gallery/ttf-ladakh-ep2.jpg`
+- **Asset location:** `assets/images/gallery/ttf-ladakh-ep2.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `x-phMcIMzd0`)
 - **Intended placement:** Ladakh Album related photos
 - **Identity evidence URL:** https://www.youtube.com/watch?v=x-phMcIMzd0
@@ -196,8 +196,8 @@
 
 ---
 
-### Asset 014 — `assets/ttf-r15-andhra.jpg`
-- **Asset location:** `assets/ttf-r15-andhra.jpg`
+### Asset 014 — `assets/images/gallery/ttf-r15-andhra.jpg`
+- **Asset location:** `assets/images/gallery/ttf-r15-andhra.jpg`
 - **Source publisher/account:** Twin Throttlers YouTube Channel (Video `2yCMHOiJxE8`)
 - **Intended placement:** Superbikes & Mods Album related photos
 - **Identity evidence URL:** https://www.youtube.com/watch?v=2yCMHOiJxE8
@@ -212,9 +212,9 @@
 
 ## Logged Graphic & Header Backgrounds
 
-- `assets/hero-bg.jpg`: Abstract racing telemetry artwork (Hero background) — Approved
-- `assets/videos-bg.jpg`: Abstract digital cinema racing trails — Approved
-- `assets/biography-bg.jpg`: Abstract speedometer and telemetry banner — Approved
-- `assets/news-bg.jpg`: Abstract digital broadcast graphic — Approved
-- `assets/about-bg.jpg`: Abstract mechanical artwork — Approved
-- `assets/ttf-logo.jpg`: Monogram emblem — Approved
+- `assets/images/hero/hero-bg.jpg`: Abstract racing telemetry artwork (Hero background) — Approved
+- `assets/images/hero/videos-bg.jpg`: Abstract digital cinema racing trails — Approved
+- `assets/images/hero/biography-bg.jpg`: Abstract speedometer and telemetry banner — Approved
+- `assets/images/hero/news-bg.jpg`: Abstract digital broadcast graphic — Approved
+- `assets/images/hero/about-bg.jpg`: Abstract mechanical artwork — Approved
+- `assets/images/gallery/ttf-logo.jpg`: Monogram emblem — Approved

@@ -69,7 +69,7 @@
       }
     },
     "images": {
-      "description": "Track every image in IMAGE_ASSET_MANIFEST.md and approve before production.",
+      "description": "Track every image in docs/02-design/IMAGE_ASSET_MANIFEST.md and approve before production.",
       "type": "array",
       "items": {
         "type": "object",

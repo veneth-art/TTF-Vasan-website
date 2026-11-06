@@ -23,8 +23,8 @@ const SITE_CONTENT = {
       title: "3500 Kms in 39 Hours Non-Stop Ride — Ladakh Series Episode 1",
       creatorOrSource: "Twin Throttlers",
       sourceUrl: "https://www.youtube.com/watch?v=nNNS6gdgJ4k",
-      embedUrl: "https://www.youtube.com/embed/nNNS6gdgJ4k",
-      thumbnail: "assets/ttf-ladakh-ride.jpg",
+      embedUrl: "https://www.youtube-nocookie.com/embed/nNNS6gdgJ4k",
+      thumbnail: "assets/images/gallery/ttf-ladakh-ride.jpg",
       publishedAt: "Ladakh Expedition Series",
       status: "verified",
       category: "Long-Distance Touring",
@@ -35,8 +35,8 @@ const SITE_CONTENT = {
       title: "After All The Struggles, Finally Our Marriage Reception Happened",
       creatorOrSource: "Twin Throttlers",
       sourceUrl: "https://www.youtube.com/watch?v=_mCqvg8QNK0",
-      embedUrl: "https://www.youtube.com/embed/_mCqvg8QNK0",
-      thumbnail: "assets/ttf-wedding-reception.jpg",
+      embedUrl: "https://www.youtube-nocookie.com/embed/_mCqvg8QNK0",
+      thumbnail: "assets/images/news/ttf-wedding-reception.jpg",
       publishedAt: "Special Lifestyle Vlog",
       status: "verified",
       category: "Marriage & Celebration",
@@ -47,8 +47,8 @@ const SITE_CONTENT = {
       title: "Bigg Boss-à®•à¯காக My New Look! | Finally Haircut பணà¯à®£ிடà¯à®Ÿேனà¯! | TTF",
       creatorOrSource: "Twin Throttlers",
       sourceUrl: "https://www.youtube.com/watch?v=bCAUNi5t_EQ",
-      embedUrl: "https://www.youtube.com/embed/bCAUNi5t_EQ",
-      thumbnail: "assets/ttf-biggboss-newlook.jpg",
+      embedUrl: "https://www.youtube-nocookie.com/embed/bCAUNi5t_EQ",
+      thumbnail: "assets/images/news/ttf-biggboss-newlook.jpg",
       publishedAt: "Bigg Boss & Transformation",
       status: "verified",
       category: "Bigg Boss & Lifestyle",
@@ -59,8 +59,8 @@ const SITE_CONTENT = {
       title: "India to Nepal Bike Ride — International Border Episode 1",
       creatorOrSource: "Twin Throttlers",
       sourceUrl: "https://www.youtube.com/watch?v=3iKxoqA2JbU",
-      embedUrl: "https://www.youtube.com/embed/3iKxoqA2JbU",
-      thumbnail: "assets/ttf-nepal-ride.jpg",
+      embedUrl: "https://www.youtube-nocookie.com/embed/3iKxoqA2JbU",
+      thumbnail: "assets/images/gallery/ttf-nepal-ride.jpg",
       publishedAt: "Cross-Country Touring",
       status: "verified",
       category: "International Road Trips",
@@ -71,8 +71,8 @@ const SITE_CONTENT = {
       title: "Yamaha R15 V3 'JARVIS' Stunt Modification & Mechanic Story",
       creatorOrSource: "Twin Throttlers",
       sourceUrl: "https://www.youtube.com/watch?v=1lnKyVGwTAY",
-      embedUrl: "https://www.youtube.com/embed/1lnKyVGwTAY",
-      thumbnail: "assets/ttf-jarvis-r15.jpg",
+      embedUrl: "https://www.youtube-nocookie.com/embed/1lnKyVGwTAY",
+      thumbnail: "assets/images/gallery/ttf-jarvis-r15.jpg",
       publishedAt: "Motorcycle Mod Series",
       status: "verified",
       category: "Bike Modifications",
@@ -83,8 +83,8 @@ const SITE_CONTENT = {
       title: "1 Year Anniversary Special Vlog & Gift Unboxing",
       creatorOrSource: "Twin Throttlers",
       sourceUrl: "https://www.youtube.com/watch?v=G7XZU32AGQg",
-      embedUrl: "https://www.youtube.com/embed/G7XZU32AGQg",
-      thumbnail: "assets/ttf-anniversary.jpg",
+      embedUrl: "https://www.youtube-nocookie.com/embed/G7XZU32AGQg",
+      thumbnail: "assets/images/news/ttf-anniversary.jpg",
       publishedAt: "Anniversary Special",
       status: "verified",
       category: "Community & Family",
@@ -98,36 +98,36 @@ const SITE_CONTENT = {
     {
       id: "nNNS6gdgJ4k",
       title: "3500 Kms in 39 Hours Non-Stop Ride — Ladakh Series Episode 1",
-      embedUrl: "https://www.youtube.com/embed/nNNS6gdgJ4k",
+      embedUrl: "https://www.youtube-nocookie.com/embed/nNNS6gdgJ4k",
       sourceUrl: "https://www.youtube.com/watch?v=nNNS6gdgJ4k",
-      thumbnail: "assets/ttf-ladakh-ride.jpg",
+      thumbnail: "assets/images/gallery/ttf-ladakh-ride.jpg",
       category: "Long-Distance Touring",
       description: "The legendary opening episode of the Coimbatore to Ladakh marathon expedition that defined a new era of Tamil moto-vlogging."
     },
     {
       id: "_mCqvg8QNK0",
       title: "After All The Struggles, Finally Our Marriage Reception Happened",
-      embedUrl: "https://www.youtube.com/embed/_mCqvg8QNK0",
+      embedUrl: "https://www.youtube-nocookie.com/embed/_mCqvg8QNK0",
       sourceUrl: "https://www.youtube.com/watch?v=_mCqvg8QNK0",
-      thumbnail: "assets/ttf-wedding-reception.jpg",
+      thumbnail: "assets/images/news/ttf-wedding-reception.jpg",
       category: "Marriage & Celebration",
       description: "A heartfelt celebration vlog sharing his wedding reception moments with the TTF Family."
     },
     {
       id: "bCAUNi5t_EQ",
       title: "Bigg Boss New Look — Finally Haircut & Transformation",
-      embedUrl: "https://www.youtube.com/embed/bCAUNi5t_EQ",
+      embedUrl: "https://www.youtube-nocookie.com/embed/bCAUNi5t_EQ",
       sourceUrl: "https://www.youtube.com/watch?v=bCAUNi5t_EQ",
-      thumbnail: "assets/ttf-biggboss-newlook.jpg",
+      thumbnail: "assets/images/news/ttf-biggboss-newlook.jpg",
       category: "Bigg Boss & Lifestyle",
       description: "A lifestyle update and transformation vlog sharing his personal style evolution."
     },
     {
       id: "3iKxoqA2JbU",
       title: "India to Nepal Bike Ride — International Border Episode 1",
-      embedUrl: "https://www.youtube.com/embed/3iKxoqA2JbU",
+      embedUrl: "https://www.youtube-nocookie.com/embed/3iKxoqA2JbU",
       sourceUrl: "https://www.youtube.com/watch?v=3iKxoqA2JbU",
-      thumbnail: "assets/ttf-nepal-ride.jpg",
+      thumbnail: "assets/images/gallery/ttf-nepal-ride.jpg",
       category: "International Road Trips",
       description: "Cross-border motorcycle expedition from India to Nepal, capturing the international border ride."
     }
@@ -140,30 +140,30 @@ const SITE_CONTENT = {
       category: "marriage",
       categoryName: "Marriage & Celebration",
       title: "Marriage Reception & Family Milestones",
-      coverImage: "assets/ttf-wedding-reception.jpg",
+      coverImage: "assets/images/news/ttf-wedding-reception.jpg",
       count: 4,
       description: "Moments from TTF Vasan's marriage reception celebration, preparation vlogs, and 1-year anniversary events shared with the TTF Family.",
       images: [
         {
-          src: "assets/ttf-wedding-reception.jpg",
+          src: "assets/images/news/ttf-wedding-reception.jpg",
           title: "Marriage Reception Ceremony",
           caption: "TTF Vasan celebrating his wedding reception surrounded by loved ones and supporters.",
           source: "https://www.youtube.com/watch?v=_mCqvg8QNK0"
         },
         {
-          src: "assets/ttf-wedding-prep.jpg",
+          src: "assets/images/news/ttf-wedding-prep.jpg",
           title: "Reception Preparations & Excitement",
           caption: "Behind the scenes preparations and special moments leading up to the reception.",
           source: "https://www.youtube.com/watch?v=TkyRrtrNjko"
         },
         {
-          src: "assets/ttf-wedding-anniv.jpg",
+          src: "assets/images/news/ttf-wedding-anniv.jpg",
           title: "1-Year Marriage Anniversary Special",
           caption: "Reflecting on one year of marriage and celebrating their journey together.",
           source: "https://www.youtube.com/watch?v=H_wkFQ7jwwM"
         },
         {
-          src: "assets/ttf-anniversary.jpg",
+          src: "assets/images/news/ttf-anniversary.jpg",
           title: "Anniversary Gift Unboxing",
           caption: "Unboxing special anniversary gifts and expressing gratitude to followers.",
           source: "https://www.youtube.com/watch?v=G7XZU32AGQg"
@@ -175,30 +175,30 @@ const SITE_CONTENT = {
       category: "touring",
       categoryName: "Ladakh & Touring",
       title: "3,500 km Ladakh Road Trip Expedition",
-      coverImage: "assets/ttf-ladakh-ride.jpg",
+      coverImage: "assets/images/gallery/ttf-ladakh-ride.jpg",
       count: 4,
       description: "The historic Coimbatore to Leh Ladakh non-stop motorcycle expedition across high mountain passes that redefined Tamil motovlogging.",
       images: [
         {
-          src: "assets/ttf-ladakh-ride.jpg",
+          src: "assets/images/gallery/ttf-ladakh-ride.jpg",
           title: "Endurance Highway Riding",
           caption: "TTF Vasan in touring armor riding through high altitude terrain.",
           source: "https://www.youtube.com/watch?v=nNNS6gdgJ4k"
         },
         {
-          src: "assets/ttf-ladakh-bike-solo.jpg",
+          src: "assets/images/gallery/ttf-ladakh-bike-solo.jpg",
           title: "Coimbatore to Anantapur Leg",
           caption: "Solo riding shot with his touring motorcycle on the open highway.",
           source: "https://www.youtube.com/watch?v=wieMmcAWzXI"
         },
         {
-          src: "assets/ttf-ladakh-ep2.jpg",
+          src: "assets/images/gallery/ttf-ladakh-ep2.jpg",
           title: "Mountain Passes & Border Encounters",
           caption: "Episode 2 highlights meeting jawans and greeting supporters along the route.",
           source: "https://www.youtube.com/watch?v=x-phMcIMzd0"
         },
         {
-          src: "assets/ttf-nepal-ride.jpg",
+          src: "assets/images/gallery/ttf-nepal-ride.jpg",
           title: "International Nepal Expedition",
           caption: "Crossing international checkpoints on two wheels through Nepal.",
           source: "https://www.youtube.com/watch?v=3iKxoqA2JbU"
@@ -210,24 +210,24 @@ const SITE_CONTENT = {
       category: "biggboss",
       categoryName: "Bigg Boss & Transformation",
       title: "Bigg Boss Audition & Makeover Journey",
-      coverImage: "assets/ttf-biggboss-newlook.jpg",
+      coverImage: "assets/images/news/ttf-biggboss-newlook.jpg",
       count: 3,
       description: "Documenting his styling transformation, media audition experiences, and television spotlight.",
       images: [
         {
-          src: "assets/ttf-biggboss-newlook.jpg",
+          src: "assets/images/news/ttf-biggboss-newlook.jpg",
           title: "New Haircut & Look Transformation",
           caption: "TTF Vasan unveiling his fresh styling transformation for television spotlight.",
           source: "https://www.youtube.com/watch?v=bCAUNi5t_EQ"
         },
         {
-          src: "assets/ttf-biggboss-audition.jpg",
+          src: "assets/images/news/ttf-biggboss-audition.jpg",
           title: "Bigg Boss Audition Journey",
           caption: "Emotional vlog discussing the audition phases, aspirations, and family reactions.",
           source: "https://www.youtube.com/watch?v=_aVOs0Y_lg4"
         },
         {
-          src: "assets/ttf-vasan-portrait.jpg",
+          src: "assets/images/gallery/ttf-vasan-portrait.jpg",
           title: "Portrait Spotlight",
           caption: "Close-up portrait of TTF Vasan discussing his entertainment and media ventures.",
           source: "https://www.youtube.com/@TwinThrottlers_TTF"
@@ -239,24 +239,24 @@ const SITE_CONTENT = {
       category: "superbikes",
       categoryName: "Superbikes & Mods",
       title: "Custom Builds & Superbike Fleet",
-      coverImage: "assets/ttf-jarvis-r15.jpg",
+      coverImage: "assets/images/gallery/ttf-jarvis-r15.jpg",
       count: 3,
       description: "From the iconic custom Yamaha R15 V3 Jarvis to the Kawasaki Z900 and Suzuki Hayabusa GSX-1300R.",
       images: [
         {
-          src: "assets/ttf-jarvis-r15.jpg",
+          src: "assets/images/gallery/ttf-jarvis-r15.jpg",
           title: "Yamaha R15 V3 'JARVIS'",
           caption: "TTF Vasan posing with his famous custom neon-accented stunt build 'Jarvis'.",
           source: "https://www.youtube.com/watch?v=1lnKyVGwTAY"
         },
         {
-          src: "assets/ttf-r15-andhra.jpg",
+          src: "assets/images/gallery/ttf-r15-andhra.jpg",
           title: "R15 Touring in Andhra Pradesh",
           caption: "Long-distance highway touring on the legendary Yamaha R15 V3.",
           source: "https://www.youtube.com/watch?v=2yCMHOiJxE8"
         },
         {
-          src: "assets/ttf-ladakh-bike-solo.jpg",
+          src: "assets/images/gallery/ttf-ladakh-bike-solo.jpg",
           title: "Solo Touring Setup",
           caption: "Fully kitted motorcycle setup ready for thousands of kilometers of interstate touring.",
           source: "https://www.youtube.com/watch?v=wieMmcAWzXI"
@@ -272,7 +272,7 @@ const SITE_CONTENT = {
       name: "Yamaha R15 V3",
       nickname: "JARVIS — The Original Stunt & Street Icon",
       badge: "Custom Stunt Icon",
-      image: "assets/ttf-jarvis-r15.jpg",
+      image: "assets/images/gallery/ttf-jarvis-r15.jpg",
       description: "The machine that launched the Twin Throttlers revolution. Outfitted with custom neon accents, crash sliders, custom exhaust, and stunt setup, 'Jarvis' carried TTF Vasan through his foundational viral vlogs and college campus visits across South India.",
       specs: [
         { label: "Engine Displacement", value: "155cc Liquid-Cooled VVA" },
@@ -288,7 +288,7 @@ const SITE_CONTENT = {
       name: "Suzuki Hayabusa GSX-1300R",
       nickname: "The 1340cc Hyperbike Dream",
       badge: "Ultimate Superbike",
-      image: "assets/ttf-vasan-portrait.jpg",
+      image: "assets/images/gallery/ttf-vasan-portrait.jpg",
       description: "TTF Vasan's dream hyperbike. Powered by an earth-shaking 1340cc inline-4 powerhouse, the legendary Suzuki Hayabusa marked his transition into the superbike stratosphere, generating millions of views during delivery and sound check episodes.",
       specs: [
         { label: "Engine Displacement", value: "1,340cc Inline-4 DOHC" },
@@ -304,7 +304,7 @@ const SITE_CONTENT = {
       name: "Touring Expedition Rig",
       nickname: "The 3,500 KM Himalayan Endurance Machine",
       badge: "High-Altitude Conqueror",
-      image: "assets/ttf-ladakh-bike-solo.jpg",
+      image: "assets/images/gallery/ttf-ladakh-bike-solo.jpg",
       description: "The purpose-kitted touring machine built to conquer the perilous Khardung La passes, Manali-Leh highways, and extreme sub-zero weather during the non-stop 3,500 km endurance expedition that electrified Tamil Nadu's rider community.",
       specs: [
         { label: "Endurance Record", value: "3,500 km in 39 Hours" },
@@ -320,7 +320,7 @@ const SITE_CONTENT = {
       name: "Interstate Long-Haul Edition",
       nickname: "Cross-Country Mile Muncher",
       badge: "Highway Touring",
-      image: "assets/ttf-r15-andhra.jpg",
+      image: "assets/images/gallery/ttf-r15-andhra.jpg",
       description: "Equipped with saddle stays, waterproof tail pack, GPS navigation mounts, and auxiliary illumination for high-speed highway touring across Tamil Nadu, Andhra Pradesh, Karnataka, and Nepal.",
       specs: [
         { label: "Fuel Range", value: "450+ km per Tank" },

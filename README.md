@@ -28,9 +28,9 @@ The fan hub is fully realized as a zero-dependency, static web experience optimi
 
 ## 🛡️ Mandatory Image Rules & Provenance
 
-- **Strict Fallback Policy**: In full accordance with `AI_BUILD_STEPS.md` and `IMAGE_ASSET_MANIFEST.md`, no unverified photos of individuals, generic stock models, or unrelated motorcycles are used.
+- **Strict Fallback Policy**: In full accordance with `docs/01-brief/AI_BUILD_STEPS.md` and `docs/02-design/IMAGE_ASSET_MANIFEST.md`, no unverified photos of individuals, generic stock models, or unrelated motorcycles are used.
 - **Synthesized Abstract Art**: High-fidelity custom abstract artwork (dynamic racing vectors, glowing speedometers, and crimson telemetry) is deployed across all headers and feature cards.
-- **Audit Log**: Every asset is registered in `IMAGE_ASSET_MANIFEST.md`.
+- **Audit Log**: Every asset is registered in `docs/02-design/IMAGE_ASSET_MANIFEST.md`.
 
 ---
 
@@ -57,26 +57,34 @@ Deploy directly to Cloudflare Pages, GitHub Pages, Vercel, or Netlify by pointin
 ## 📂 Project Architecture
 
 ```
+├── index.html
+├── biography.html
+├── videos.html
+├── news.html
+├── about.html
+├── privacy.html
+├── 404.html
+├── robots.txt
+├── sitemap.xml
+├── site.webmanifest
+├── _headers
+├── netlify.toml
+├── README.md
+├── .gitignore
 ├── assets/
-│   ├── about-bg.jpg           # Abstract mechanical artwork
-│   ├── biography-bg.jpg       # Abstract speedometer and telemetry
-│   ├── hero-bg.jpg            # Abstract red racing velocity curves
-│   ├── news-bg.jpg            # Abstract digital broadcast graphic
-│   ├── ttf-logo.jpg           # Monogram fan emblem
-│   └── videos-bg.jpg          # Abstract cinema racing trails
-├── index.html                 # Home page
-├── videos.html                # Video showcase & embeds
-├── biography.html             # Sourced milestones & timeline
-├── news.html                  # Editorial dispatches & news grid
-├── about.html                 # Mission, standards, & disclaimers
-├── privacy.html               # Plain-language privacy disclosure
-├── styles.css                 # Design system tokens, components, responsive CSS
-├── main.js                    # Particles, scroll reveals, lazy loading, tilt effect
-├── content-data.js            # Separated content data store
-├── content-schema.json        # Content validation schema
-├── robots.txt                 # Search engine crawler instructions
-├── sitemap.xml                # Search engine sitemap
-├── IMAGE_ASSET_MANIFEST.md    # Image audit and approval tracking
-├── ACCEPTANCE_CHECKLIST.md    # Verified launch checklist
-└── README.md                  # Project documentation
+│   ├── css/                  # styles.css
+│   ├── js/                   # main.js, content-data.js
+│   ├── fonts/
+│   ├── icons/                # favicon, apple-touch-icon, maskable
+│   └── images/
+│       ├── hero/
+│       ├── gallery/
+│       ├── news/
+│       └── og/
+└── docs/
+    ├── 01-brief/             # PROJECT_BRIEF, MASTER_PROMPT, AI_BUILD_STEPS
+    ├── 02-design/            # DESIGN_SYSTEM, IMAGE_ASSET_MANIFEST
+    ├── 03-content/           # CONTENT_MODEL, CONTENT_WORKFLOW, content-schema.json
+    ├── 04-specs/             # SITEMAP_AND_PAGE_SPECS, SEO_ACCESSIBILITY_PERFORMANCE, ACCEPTANCE_CHECKLIST
+    └── 05-security/          # security audit, changelog, Netlify verification checklist
 ```

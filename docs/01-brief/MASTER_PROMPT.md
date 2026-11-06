@@ -6,7 +6,7 @@ Build a polished, responsive, dark motorcycle-culture fan website titled **TTF V
 1. Every photographic image featuring a person must show **TTF Vasan himself**. No generic riders, stock models, unrelated people, or AI-generated lookalikes.
 2. A motorcycle can be represented as a bike TTF Vasan uses or has used only when reliable evidence verifies that exact bike. Do not infer ownership from appearance or an unverified post.
 3. Use authentic media from TTF Vasan or an official/authorized source, or media supplied with permission. Follow copyright and platform terms. Prefer permitted embeds or source links; do not download/re-upload protected media without permission.
-4. Before placing any image, add it to `IMAGE_ASSET_MANIFEST.md`, recording source, identity evidence, bike evidence if applicable, rights status, alt text, placement, reviewer, and approval.
+4. Before placing any image, add it to `docs/02-design/IMAGE_ASSET_MANIFEST.md`, recording source, identity evidence, bike evidence if applicable, rights status, alt text, placement, reviewer, and approval.
 5. If a suitable authentic and authorized image is unavailable, do not substitute generic imagery. Use text-led layouts, typography, abstract track-line graphics, gradients, CSS shapes, or simple icons.
 6. Never generate an image that purports to be a real photograph of TTF Vasan or his actual bike.
 

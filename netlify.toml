@@ -1,0 +1,4 @@
+# Static site: no build step. Publish the repository root so Netlify reads
+# the _headers file that contains the security headers and CSP.
+[build]
+  publish = "."

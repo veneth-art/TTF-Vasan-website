@@ -1,13 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="assets/favicon.ico" sizes="16x16 32x32 48x48">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <title>TTF VASAN — Unofficial Fan Hub | The Ride. The Journey. The Story.</title>
   <meta name="description"
     content="An unofficial fan-made tribute to TTF Vasan (Twin Throttlers) — celebrating the ride, the journey, and the story of one of Tamil Nadu's most recognized motorcycle content creators.">
@@ -19,7 +20,7 @@
   <meta property="og:description"
     content="An unofficial fan-made tribute to TTF Vasan — celebrating the ride, the journey, and the story.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/ttf-vasan-portrait.jpg">
+  <meta property="og:image" content="assets/images/gallery/ttf-vasan-portrait.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,17 +30,17 @@
     rel="stylesheet">
 
   <!-- Lucide Icons CDN -->
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://unpkg.com/lucide@1.70.0/dist/umd/lucide.min.js" integrity="sha384-64z4N640tVzhAicQVGzxE/48VNN9yS53U5kv9UH8ca7xGU4KSJ9zz8nD4C2BEerP" crossorigin="anonymous" defer></script>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
 
   <!-- Loading Screen -->
   <div class="loading-screen" id="loading-screen">
-    <img src="assets/ttf-avatar.jpg" alt="TTF Vasan Avatar" class="loader-logo" width="80" height="80">
+    <img src="assets/images/gallery/ttf-avatar.jpg" alt="TTF Vasan Avatar" class="loader-logo" width="80" height="80">
     <div class="loader-bar"></div>
   </div>
 
@@ -62,7 +63,7 @@
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="index.html" class="nav-brand" aria-label="TTF Vasan Fan Hub Home">
-        <img src="assets/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="40" height="40" loading="eager">
+        <img src="assets/images/gallery/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="40" height="40" loading="eager">
         TTF <span>VASAN</span>
       </a>
       <ul class="nav-links" id="nav-links">
@@ -86,7 +87,7 @@
     <!-- ====== HERO SECTION ====== -->
     <section class="hero" id="hero" aria-label="Hero">
       <div class="hero-bg">
-        <img src="assets/hero-bg.jpg" alt="Abstract racing velocity telemetry and speed curves" width="1920"
+        <img src="assets/images/hero/hero-bg.jpg" alt="Abstract racing velocity telemetry and speed curves" width="1920"
           height="1080" loading="eager">
       </div>
       <div class="hero-overlay"></div>
@@ -168,7 +169,7 @@
 
         <div class="featured-card reveal-scale">
           <div class="featured-card-image">
-            <img src="assets/ttf-ladakh-ride.jpg"
+            <img src="assets/images/gallery/ttf-ladakh-ride.jpg"
               alt="TTF Vasan on his touring motorcycle during the 3,500 km Coimbatore to Ladakh ride" width="600"
               height="400" loading="lazy">
           </div>
@@ -205,9 +206,9 @@
           <!-- Video 1: Ladakh Series Episode 1 -->
           <div class="video-card reveal">
             <div class="video-embed">
-              <iframe src="https://www.youtube.com/embed/nNNS6gdgJ4k?rel=0"
+              <iframe src="https://www.youtube-nocookie.com/embed/nNNS6gdgJ4k?rel=0"
                 title="3500 Kms in 39 Hours Non-Stop Ride — Ladakh Series Episode 1"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen loading="lazy"></iframe>
             </div>
             <div class="video-card-body">
@@ -224,8 +225,8 @@
           <!-- Video 2: Marriage Reception -->
           <div class="video-card reveal">
             <div class="video-embed">
-              <iframe src="https://www.youtube.com/embed/_mCqvg8QNK0?rel=0" title="Marriage Reception — Twin Throttlers"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              <iframe src="https://www.youtube-nocookie.com/embed/_mCqvg8QNK0?rel=0" title="Marriage Reception — Twin Throttlers"
+                referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen loading="lazy"></iframe>
             </div>
             <div class="video-card-body">
@@ -242,8 +243,8 @@
           <!-- Video 3: Bigg Boss New Look -->
           <div class="video-card reveal">
             <div class="video-embed">
-              <iframe src="https://www.youtube.com/embed/bCAUNi5t_EQ?rel=0" title="Bigg Boss New Look — Twin Throttlers"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              <iframe src="https://www.youtube-nocookie.com/embed/bCAUNi5t_EQ?rel=0" title="Bigg Boss New Look — Twin Throttlers"
+                referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen loading="lazy"></iframe>
             </div>
             <div class="video-card-body">
@@ -260,9 +261,9 @@
           <!-- Video 4: India to Nepal -->
           <div class="video-card reveal">
             <div class="video-embed">
-              <iframe src="https://www.youtube.com/embed/3iKxoqA2JbU?rel=0"
+              <iframe src="https://www.youtube-nocookie.com/embed/3iKxoqA2JbU?rel=0"
                 title="India to Nepal Bike Ride — Twin Throttlers"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen loading="lazy"></iframe>
             </div>
             <div class="video-card-body">
@@ -297,7 +298,7 @@
           <div class="gallery-item reveal" data-album="album-marriage" data-category="marriage" role="button"
             tabindex="0" aria-label="Open Marriage Reception Album">
             <div class="gallery-item-media">
-              <img src="assets/ttf-wedding-reception.jpg" alt="Marriage Reception Ceremony" loading="lazy">
+              <img src="assets/images/news/ttf-wedding-reception.jpg" alt="Marriage Reception Ceremony" loading="lazy">
               <div class="gallery-item-overlay">
                 <span class="gallery-item-badge">Marriage & Celebration</span>
                 <h3 class="gallery-item-title">Marriage Reception & Family Milestones</h3>
@@ -312,7 +313,7 @@
           <div class="gallery-item reveal" data-album="album-ladakh" data-category="touring" role="button" tabindex="0"
             aria-label="Open Ladakh Road Trip Album">
             <div class="gallery-item-media">
-              <img src="assets/ttf-ladakh-ride.jpg" alt="Ladakh Road Trip" loading="lazy">
+              <img src="assets/images/gallery/ttf-ladakh-ride.jpg" alt="Ladakh Road Trip" loading="lazy">
               <div class="gallery-item-overlay">
                 <span class="gallery-item-badge">Ladakh & Touring</span>
                 <h3 class="gallery-item-title">3,500 km Ladakh Road Trip</h3>
@@ -327,7 +328,7 @@
           <div class="gallery-item reveal" data-album="album-biggboss" data-category="biggboss" role="button"
             tabindex="0" aria-label="Open Bigg Boss Album">
             <div class="gallery-item-media">
-              <img src="assets/ttf-biggboss-newlook.jpg" alt="Bigg Boss Makeover" loading="lazy">
+              <img src="assets/images/news/ttf-biggboss-newlook.jpg" alt="Bigg Boss Makeover" loading="lazy">
               <div class="gallery-item-overlay">
                 <span class="gallery-item-badge">Bigg Boss & Lifestyle</span>
                 <h3 class="gallery-item-title">Bigg Boss Audition & Makeover</h3>
@@ -341,7 +342,7 @@
           <div class="gallery-item reveal" data-album="album-superbikes" data-category="superbikes" role="button"
             tabindex="0" aria-label="Open Superbike Fleet Album">
             <div class="gallery-item-media">
-              <img src="assets/ttf-jarvis-r15.jpg" alt="Jarvis R15 Custom Build" loading="lazy">
+              <img src="assets/images/gallery/ttf-jarvis-r15.jpg" alt="Jarvis R15 Custom Build" loading="lazy">
               <div class="gallery-item-overlay">
                 <span class="gallery-item-badge">Superbikes & Mods</span>
                 <h3 class="gallery-item-title">Custom Builds & Superbike Fleet</h3>
@@ -608,7 +609,7 @@
       <div class="footer-grid">
         <div class="footer-about">
           <div class="footer-brand">
-            <img src="assets/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="36" height="36" loading="lazy">
+            <img src="assets/images/gallery/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="36" height="36" loading="lazy">
             TTF VASAN
           </div>
           <p>An unofficial fan-made tribute celebrating TTF Vasan's motorcycle content and the riding culture of Tamil
@@ -700,11 +701,8 @@
   </button>
 
   <!-- Scripts -->
-  <script src="content-data.js"></script>
-  <script src="main.js"></script>
-  <script>
-    lucide.createIcons();
-  </script>
+  <script src="assets/js/content-data.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

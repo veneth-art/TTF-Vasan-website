@@ -15,7 +15,7 @@ Dark motorcycle-inspired editorial design. Obsidian `#09090B`, charcoal `#17171C
 - No generic riders, unrelated people, stock models, random bikes, or AI-generated likenesses.
 - Use only permission-cleared media or embeds/links allowed by the source.
 - If no image qualifies, use text-led design and abstract graphics instead.
-- Track every image in `IMAGE_ASSET_MANIFEST.md`.
+- Track every image in `docs/02-design/IMAGE_ASSET_MANIFEST.md`.
 
 ## Editorial standards
 Use reliable sources, original summaries, direct source links, and accurate dates. Mark unverified submissions pending review. Never invent facts or imply official affiliation.

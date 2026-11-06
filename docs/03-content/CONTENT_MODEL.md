@@ -10,6 +10,6 @@
 `dateOrPeriod`, `event`, `summary`, `sourceUrl`, `verificationStatus`.
 
 ## Image asset
-See `IMAGE_ASSET_MANIFEST.md`. Record source URL/publisher, intended placement, confirmation the person is TTF Vasan, bike evidence if relevant, permission/licensing or permitted-embed status, factual alt text, reviewer/date, and approval status.
+See `docs/02-design/IMAGE_ASSET_MANIFEST.md`. Record source URL/publisher, intended placement, confirmation the person is TTF Vasan, bike evidence if relevant, permission/licensing or permitted-embed status, factual alt text, reviewer/date, and approval status.
 
 An unverified submission, search thumbnail, or similar-looking person/bike is not proof.

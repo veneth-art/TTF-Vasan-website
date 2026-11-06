@@ -6,7 +6,7 @@
 - [x] No generic riders, unrelated people, stock models, or AI lookalikes appear. (Verified: Strictly abstract speed lines, telemetry, and emblem graphics).
 - [x] Every bike presented as one he uses/has used has reliable evidence for that specific bike. (Verified: No generic bikes falsely attributed as his personal machine).
 - [x] No random or merely similar-looking bike is represented as his. (Verified: No misattributed motorcycles).
-- [x] Every image is recorded in `IMAGE_ASSET_MANIFEST.md`. (Verified: All 6 assets documented with source, alt text, and status).
+- [x] Every image is recorded in `docs/02-design/IMAGE_ASSET_MANIFEST.md`. (Verified: All 6 assets documented with source, alt text, and status).
 - [x] Rights, permission, licensing, or permitted-embed status is recorded and cleared. (Verified: Embeds comply with YouTube TOS; abstract art cleared).
 - [x] Alt text is factual and does not make unsupported identity/ownership claims. (Verified: Accurate descriptive alt tags across all `<img>` tags).
 - [x] Unverified images are removed; abstract/text-led fallback is used. (Verified: High-performance abstract artwork used throughout).

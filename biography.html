@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="assets/favicon.ico" sizes="16x16 32x32 48x48">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <title>Biography — TTF VASAN Unofficial Fan Hub</title>
   <meta name="description"
     content="The authentic journey of TTF Vasan (Twin Throttlers) — from Coimbatore motorcycle enthusiast to Tamil Nadu's 5.1M+ motovlogging pioneer. Sourced career timeline.">
@@ -17,14 +18,14 @@
   <meta property="og:description"
     content="The journey of TTF Vasan — career timeline, superbike fleet, and milestones.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/ttf-vasan-portrait.jpg">
+  <meta property="og:image" content="assets/images/gallery/ttf-vasan-portrait.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@1.70.0/dist/umd/lucide.min.js" integrity="sha384-64z4N640tVzhAicQVGzxE/48VNN9yS53U5kv9UH8ca7xGU4KSJ9zz8nD4C2BEerP" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="index.html" class="nav-brand" aria-label="TTF Vasan Fan Hub Home">
-        <img src="assets/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="40" height="40" loading="eager">
+        <img src="assets/images/gallery/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="40" height="40" loading="eager">
         TTF <span>VASAN</span>
       </a>
       <ul class="nav-links" id="nav-links">
@@ -60,7 +61,7 @@
     <!-- Page Header -->
     <section class="page-header" aria-label="Page header">
       <div class="page-header-bg">
-        <img src="assets/biography-bg.jpg" alt="Abstract speedometer and journey telemetry banner" width="1920"
+        <img src="assets/images/hero/biography-bg.jpg" alt="Abstract speedometer and journey telemetry banner" width="1920"
           height="600" loading="eager">
       </div>
       <div class="page-header-overlay"></div>
@@ -88,7 +89,7 @@
               enthusiast and content creator to a film and television personality, his journey continues to attract attention among Tamil audiences.</p>
           </div>
           <div class="about-image reveal-right">
-            <img src="assets/photo4.jpg" alt="TTF Vasan with his touring motorcycle on the open highway"
+            <img src="assets/images/gallery/photo4.jpg" alt="TTF Vasan with his touring motorcycle on the open highway"
               width="600" height="400" loading="lazy" style="border-radius:var(--radius-lg); object-fit:cover;">
           </div>
         </div>
@@ -108,7 +109,7 @@
         <div class="card-grid stagger-children">
           <div class="card reveal">
             <div class="card-image">
-              <img src="assets/ttf-jarvis-r15.jpg" alt="TTF Vasan with his customized Yamaha R15 V3 Jarvis"
+              <img src="assets/images/gallery/ttf-jarvis-r15.jpg" alt="TTF Vasan with his customized Yamaha R15 V3 Jarvis"
                 loading="lazy">
             </div>
             <div class="card-body">
@@ -124,7 +125,7 @@
 
           <div class="card reveal">
             <div class="card-image">
-              <img src="assets/ttf-ladakh-ride.jpg" alt="TTF Vasan on his touring motorcycle in Ladakh" loading="lazy">
+              <img src="assets/images/gallery/ttf-ladakh-ride.jpg" alt="TTF Vasan on his touring motorcycle in Ladakh" loading="lazy">
             </div>
             <div class="card-body">
               <span class="card-tag">The Tourer</span>
@@ -139,7 +140,7 @@
 
           <div class="card reveal">
             <div class="card-image">
-              <img src="assets/ttf-nepal-ride.jpg" alt="TTF Vasan on his motorcycle road trip across Nepal"
+              <img src="assets/images/gallery/ttf-nepal-ride.jpg" alt="TTF Vasan on his motorcycle road trip across Nepal"
                 loading="lazy">
             </div>
             <div class="card-body">
@@ -296,7 +297,7 @@
       <div class="footer-grid">
         <div class="footer-about">
           <div class="footer-brand">
-            <img src="assets/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="36" height="36" loading="lazy">
+            <img src="assets/images/gallery/ttf-avatar.jpg" alt="TTF Vasan Avatar" width="36" height="36" loading="lazy">
             TTF VASAN
           </div>
           <p>An unofficial fan-made tribute celebrating TTF Vasan's motorcycle content and the riding culture of Tamil
@@ -368,11 +369,8 @@
   </button>
 
   <!-- Scripts -->
-  <script src="content-data.js"></script>
-  <script src="main.js"></script>
-  <script>
-    lucide.createIcons();
-  </script>
+  <script src="assets/js/content-data.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

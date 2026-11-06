@@ -19,7 +19,7 @@ Typography: Space Grotesk headings; Inter body. Use properly licensed fonts.
 - No generic riders, unrelated people, stock models, random motorcycles, or AI-generated lookalikes.
 - Use authentic, permission-cleared media or embeds/links permitted by the source.
 - If a suitable image is unavailable, use abstract racing lines, gradients, CSS shapes, typography, or icons.
-- Record all assets in `IMAGE_ASSET_MANIFEST.md`; unapproved assets must not ship.
+- Record all assets in `docs/02-design/IMAGE_ASSET_MANIFEST.md`; unapproved assets must not ship.
 
 ## Accessibility and performance
 Semantic HTML, keyboard support, visible focus, sufficient contrast, reduced-motion support, factual alt text, responsive image sizes, dimensions to prevent layout shift, and lazy loading below the fold.
