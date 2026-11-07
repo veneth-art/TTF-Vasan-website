@@ -1880,9 +1880,8 @@ p {
 
 .footer-credit {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-xl);
+  flex-direction: column;
+  gap: var(--space-lg);
   margin-top: var(--space-lg);
   padding-top: var(--space-xl);
   border-top: 1px solid var(--border);
@@ -1890,12 +1889,12 @@ p {
 }
 
 .footer-credit-text {
-  max-width: 640px;
+  max-width: 100%;
 }
 
 .footer-credit-title {
   font-family: var(--font-heading);
-  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
   font-weight: 600;
   line-height: 1.4;
   color: var(--off-white);
@@ -1913,7 +1912,7 @@ p {
 }
 
 .footer-credit-text p:not(.footer-credit-title) {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   line-height: 1.7;
   color: var(--muted-grey);
   margin: 0;
@@ -1922,17 +1921,17 @@ p {
 .footer-credit-badge {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-sm);
+  gap: var(--space-xs);
   flex-shrink: 0;
-  padding: 0.8rem 1.5rem;
+  padding: 0.5rem 1rem;
   border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  color: var(--off-white);
+  border-radius: var(--radius-sm);
+  color: var(--muted-grey);
   text-decoration: none;
-  font-family: var(--font-heading);
+  font-family: var(--font-body);
   font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
+  font-weight: 500;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   transition: all var(--transition-fast);
 }
@@ -1940,18 +1939,17 @@ p {
 .footer-credit-badge:hover {
   border-color: var(--racing-red);
   color: var(--racing-red);
-  background: var(--surface);
-  transform: translateY(-2px);
+  background: transparent;
 }
 
 .footer-credit-mark {
   display: inline-grid;
   place-items: center;
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 1.4rem;
+  height: 1.4rem;
   border: 1px solid currentColor;
   border-radius: 50%;
-  font-size: 0.62rem;
+  font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1;
@@ -2996,5 +2994,15 @@ button, a, [role="button"], input[type="submit"], input[type="button"] {
     display: flex;
     gap: var(--space-md);
     flex-wrap: wrap;
+  }
+
+  .footer-credit {
+    gap: var(--space-md);
+    padding-top: var(--space-lg);
+  }
+
+  .footer-credit-badge {
+    width: 100%;
+    justify-content: center;
   }
 }
