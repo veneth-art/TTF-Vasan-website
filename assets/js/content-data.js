@@ -44,7 +44,7 @@ const SITE_CONTENT = {
     },
     {
       id: "bCAUNi5t_EQ",
-      title: "Bigg Boss-à®•à¯காக My New Look! | Finally Haircut பணà¯à®£ிடà¯à®Ÿேனà¯! | TTF",
+      title: "Bigg Boss Special — New Look and Haircut Transformation | TTF",
       creatorOrSource: "Twin Throttlers",
       sourceUrl: "https://www.youtube.com/watch?v=bCAUNi5t_EQ",
       embedUrl: "https://www.youtube-nocookie.com/embed/bCAUNi5t_EQ",

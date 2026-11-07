@@ -2,20 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#09090B">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="TTF Vasan Fan Hub">
   <link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <title>Videos — TTF VASAN Unofficial Fan Hub</title>
-  <meta name="description" content="Watch authentic TTF Vasan motorcycle videos — Ladakh expedition, bike modifications, road trips, and lifestyle vlogs from Twin Throttlers.">
+  <title>Twin Throttlers Videos &amp; Road Trips | TTF Vasan Fan Hub</title>
+  <meta name="description" content="Watch curated YouTube motovlogs, Ladakh expedition episodes, bike modifications, and superbike deliveries from TTF Vasan and Twin Throttlers.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="videos.html">
-  <meta property="og:title" content="Videos — TTF VASAN Unofficial Fan Hub">
-  <meta property="og:description" content="Watch authentic TTF Vasan motorcycle videos from Twin Throttlers.">
+  <link rel="canonical" href="https://ttf-vasan.netlify.app/videos.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Twin Throttlers Videos &amp; Road Trips | TTF Vasan Fan Hub">
+  <meta property="og:description" content="Watch curated YouTube motovlogs, Ladakh expedition episodes, bike modifications, and superbike deliveries from TTF Vasan and Twin Throttlers.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/gallery/ttf-ladakh-ride.jpg">
+  <meta property="og:url" content="https://ttf-vasan.netlify.app/videos.html">
+  <meta property="og:site_name" content="TTF Vasan Unofficial Fan Hub">
+  <meta property="og:image" content="https://ttf-vasan.netlify.app/assets/images/gallery/ttf-ladakh-ride.jpg">
+  <meta property="og:image:alt" content="TTF Vasan Ladakh Motorcycle Expedition">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Twin Throttlers Videos &amp; Road Trips | TTF Vasan Fan Hub">
+  <meta name="twitter:description" content="Watch curated YouTube motovlogs, Ladakh expedition episodes, bike modifications, and superbike deliveries from TTF Vasan and Twin Throttlers.">
+  <meta name="twitter:image" content="https://ttf-vasan.netlify.app/assets/images/gallery/ttf-ladakh-ride.jpg">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ttf-vasan.netlify.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Videos",
+            "item": "https://ttf-vasan.netlify.app/videos.html"
+          }
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://ttf-vasan.netlify.app/videos.html#webpage",
+        "url": "https://ttf-vasan.netlify.app/videos.html",
+        "name": "Twin Throttlers Videos & Road Trips | TTF Vasan Fan Hub",
+        "description": "Watch curated YouTube motovlogs, Ladakh expedition episodes, bike modifications, and superbike deliveries from TTF Vasan and Twin Throttlers.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "url": "https://ttf-vasan.netlify.app/",
+          "name": "TTF Vasan Unofficial Fan Hub"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "3500 Kms in 39 Hours Non Stop Ride — Ladakh Series Episode 1",
+        "description": "The landmark opening episode of the Coimbatore to Ladakh marathon expedition by TTF Vasan on Twin Throttlers.",
+        "thumbnailUrl": "https://ttf-vasan.netlify.app/assets/images/gallery/ttf-ladakh-ride.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/nNNS6gdgJ4k",
+        "uploadDate": "2021-08-01T00:00:00+05:30"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -27,6 +88,11 @@
   <!-- Unofficial Badge -->
   <div class="unofficial-badge" role="status">
     ⚡ Unofficial Fan-Made Website — Not affiliated with TTF Vasan
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress-bar" aria-hidden="true">
+    <div class="scroll-progress-inner"></div>
   </div>
 
   <!-- Navigation -->

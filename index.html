@@ -3,24 +3,66 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#09090B">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="TTF Vasan Fan Hub">
   <link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <title>TTF VASAN — Unofficial Fan Hub | The Ride. The Journey. The Story.</title>
+  <title>TTF Vasan Fan Hub | Twin Throttlers Videos, Biography &amp; Updates</title>
   <meta name="description"
-    content="An unofficial fan-made tribute to TTF Vasan (Twin Throttlers) — celebrating the ride, the journey, and the story of one of Tamil Nadu's most recognized motorcycle content creators.">
+    content="Explore an unofficial fan-made guide to TTF Vasan and Twin Throttlers, featuring a sourced biography, curated YouTube videos, motorcycle journeys and updates.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="index.html">
+  <link rel="canonical" href="https://ttf-vasan.netlify.app/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="TTF VASAN — Unofficial Fan Hub">
+  <meta property="og:title" content="TTF Vasan Fan Hub | Twin Throttlers Videos, Biography &amp; Updates">
   <meta property="og:description"
-    content="An unofficial fan-made tribute to TTF Vasan — celebrating the ride, the journey, and the story.">
+    content="Explore an unofficial fan-made guide to TTF Vasan and Twin Throttlers, featuring a sourced biography, curated YouTube videos, motorcycle journeys and updates.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/gallery/ttf-vasan-portrait.jpg">
+  <meta property="og:url" content="https://ttf-vasan.netlify.app/">
+  <meta property="og:site_name" content="TTF Vasan Unofficial Fan Hub">
+  <meta property="og:image" content="https://ttf-vasan.netlify.app/assets/images/gallery/ttf-vasan-portrait.jpg">
+  <meta property="og:image:alt" content="TTF Vasan Portrait - Twin Throttlers Fan Hub">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TTF Vasan Fan Hub | Twin Throttlers Videos, Biography &amp; Updates">
+  <meta name="twitter:description"
+    content="Explore an unofficial fan-made guide to TTF Vasan and Twin Throttlers, featuring a sourced biography, curated YouTube videos, motorcycle journeys and updates.">
+  <meta name="twitter:image" content="https://ttf-vasan.netlify.app/assets/images/gallery/ttf-vasan-portrait.jpg">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ttf-vasan.netlify.app/#website",
+        "url": "https://ttf-vasan.netlify.app/",
+        "name": "TTF Vasan Unofficial Fan Hub",
+        "description": "An unofficial fan-made website celebrating TTF Vasan and Twin Throttlers motovlogs, touring journeys, and biography.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://ttf-vasan.netlify.app/#webpage",
+        "url": "https://ttf-vasan.netlify.app/",
+        "name": "TTF Vasan Fan Hub | Twin Throttlers Videos, Biography & Updates",
+        "isPartOf": {
+          "@id": "https://ttf-vasan.netlify.app/#website"
+        },
+        "description": "Explore an unofficial fan-made guide to TTF Vasan and Twin Throttlers, featuring a sourced biography, curated YouTube videos, motorcycle journeys and updates.",
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,10 +90,8 @@
   <canvas id="particles-canvas" aria-hidden="true"></canvas>
 
   <!-- Scroll Progress -->
-  <div style="position:fixed;top:24px;left:0;right:0;height:3px;z-index:1002;background:transparent;">
-    <div class="scroll-progress"
-      style="height:100%;width:0%;background:var(--racing-red);transition:width 100ms linear;border-radius:0 2px 2px 0;">
-    </div>
+  <div class="scroll-progress-bar" aria-hidden="true">
+    <div class="scroll-progress-inner"></div>
   </div>
 
   <!-- Unofficial Badge -->
@@ -135,24 +175,25 @@
       <div class="container">
         <div class="stats-grid stagger-children">
           <div class="stat-item reveal">
-            <div class="stat-number"><span class="counter" data-target="5" data-suffix=".13M+">0</span></div>
+            <div class="stat-number"><span class="counter" data-target="5" data-suffix=".13M+">5.13M+</span></div>
             <div class="stat-label">YouTube Subscribers</div>
           </div>
           <div class="stat-item reveal">
-            <div class="stat-number"><span class="counter" data-target="1800" data-suffix="+">0</span></div>
+            <div class="stat-number"><span class="counter" data-target="1800" data-suffix="+">1,800+</span></div>
             <div class="stat-label">Videos Published</div>
           </div>
           <div class="stat-item reveal">
-            <div class="stat-number"><span class="counter" data-target="1" data-suffix=".5B+">0</span></div>
+            <div class="stat-number"><span class="counter" data-target="1" data-suffix=".5B+">1.5B+</span></div>
             <div class="stat-label">Total Views</div>
           </div>
           <div class="stat-item reveal">
-            <div class="stat-number"><span class="counter" data-target="2" data-suffix="M+">0</span></div>
+            <div class="stat-number"><span class="counter" data-target="2" data-suffix="M+">2M+</span></div>
             <div class="stat-label">Social Followers</div>
           </div>
         </div>
-        <p style="text-align:center;font-size:0.75rem;color:var(--muted-grey);margin-top:1rem;opacity:0.7;">Verified
-          live statistics from Twin Throttlers YouTube channel analytics</p>
+        <p style="text-align:center;font-size:0.78rem;color:var(--muted-grey);margin-top:1rem;opacity:0.85;">
+          Documented public channel metrics from Twin Throttlers (@TwinThrottlers_TTF), verified as of November 2026.
+        </p>
       </div>
     </section>
 
