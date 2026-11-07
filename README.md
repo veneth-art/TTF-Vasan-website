@@ -35,7 +35,7 @@ The fan hub is fully realized as a zero-dependency, static web experience optimi
 ---
 
 ### Static Hosting:
-Deploy directly to Cloudflare Pages, GitHub Pages, Vercel, or Netlify by pointing the root directory to this repository.
+Deployed to Firebase Hosting. Run `firebase deploy --only hosting` from the repository root (see `firebase.json` and `.firebaserc`).
 
 ---
 
@@ -52,8 +52,8 @@ Deploy directly to Cloudflare Pages, GitHub Pages, Vercel, or Netlify by pointin
 ├── robots.txt
 ├── sitemap.xml
 ├── site.webmanifest
-├── _headers
-├── netlify.toml
+├── firebase.json
+├── .firebaserc
 ├── README.md
 ├── .gitignore
 ├── assets/

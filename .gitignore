@@ -7,9 +7,16 @@ build/
 .DS_Store
 .vscode/
 coverage/
+.firebase/
+firebase-debug.log
 
 #docs
 /docs
+
+#firebaeirebase/
+.fireb
+.fase-debugreb
+
 
 
 
